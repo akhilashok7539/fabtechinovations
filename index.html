@@ -104,13 +104,13 @@
             </ul>
             <span class="nav-item social-icons">
                 <span class="fa-stack">
-                    <a href="#your-link">
+                    <a href="https://www.facebook.com/fabtecinnovationsmavelikara/">
                         <i class="fas fa-circle fa-stack-2x facebook"></i>
                         <i class="fab fa-facebook-f fa-stack-1x"></i>
                     </a>
                 </span>
             <span class="fa-stack">
-                    <a href="#your-link">
+                    <a href="https://www.instagram.com/fabtec_innovations/">
                         <i class="fas fa-circle fa-stack-2x twitter"></i>
                         <i class="fab fa-twitter fa-stack-1x"></i>
                     </a>
@@ -1035,20 +1035,21 @@
                 <div class="col-lg-6">
 
                     <!-- Contact Form -->
-                    <form id="contactForm" data-toggle="validator" data-focus="false">
+                    <form id="contactForm" data-toggle="validator" data-focus="false" method="post" action="php/contactform-process.php">
                         <div class="form-group">
-                            <input type="text" class="form-control-input" id="cname" required>
-                            <label class="label-control" for="cname">Name</label>
+                            <input type="text" class="form-control-input" id="Name" required>
+                            <label class="label-control" for="Name">Name</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" class="form-control-input" id="Email" required>
+                            <label class="label-control" for="Email">Email</label>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control-input" id="cemail" required>
-                            <label class="label-control" for="cemail">Email</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control-textarea" id="cmessage" required></textarea>
-                            <label class="label-control" for="cmessage">Your message</label>
+                            <textarea class="form-control-textarea" id="Message" required></textarea>
+                            <label class="label-control" for="Message">Your message</label>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group checkbox">
@@ -1108,12 +1109,12 @@
                     <div class="footer-col last">
                         <h4>Social Media</h4>
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://www.facebook.com/fabtecinnovationsmavelikara/">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-facebook-f fa-stack-1x"></i>
                             </a>
                         </span>
-                        <span class="fa-stack">
+                        <!-- <span class="fa-stack">
                             <a href="#your-link">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-twitter fa-stack-1x"></i>
@@ -1124,19 +1125,19 @@
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-google-plus-g fa-stack-1x"></i>
                             </a>
-                        </span>
+                        </span> -->
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://www.instagram.com/fabtec_innovations/">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-instagram fa-stack-1x"></i>
                             </a>
                         </span>
-                        <span class="fa-stack">
+                        <!-- <span class="fa-stack">
                             <a href="#your-link">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-linkedin-in fa-stack-1x"></i>
                             </a>
-                        </span>
+                        </span> -->
                     </div>
                 </div>
                 <!-- end of col -->
